@@ -10,7 +10,7 @@ class Product {
 class Inventory {
   private products: Product[] = [];
 
-  addProduct(product: Product): void {
+  addProduct(product: Product): void 
     this.products.push(product);
     console.log(`${product.name} added successfully.`);
   }
